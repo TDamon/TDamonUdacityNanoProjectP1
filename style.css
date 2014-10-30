@@ -2,29 +2,24 @@ a:link {
   color: white;
   text-decoration: none;
 }
-
 a:visited {
   color:white;
   text-decoration: none;
 }
-
 body {
   background-color: #3a3a38;
   color: white;
 }
-
 .breakerline {
   border-top: 2px solid rgb(175,187,234);
   margin-bottom: 10px;
 }
-
 .center {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
-
-/*adjustable font sizes */
+/*adjustable font sizes, removed for the moment
 h1 {
   font-size: 4vmax;
 }
@@ -36,12 +31,10 @@ h2 {
 h3 {
   font-size: 2.7vmax;
 }
-
+*/
 .hovershadow:hover {
   text-shadow: 4px 4px #000;
 }
-
-
 .jumbotron {
   background-image: url(images/jmountainsblur.jpg);
   background-position: 0% 35%;
@@ -49,31 +42,22 @@ h3 {
   height: 20vmax;
   text-shadow: 4px 4px #000;
 }
-
 .logo {
   height: auto;
   width: 80%;
   max-height: 15vmax;
   max-width: 15vmax;
 }
-
 .featuredwrk {
   color: rgb(175,187,234);
   margin-bottom: 10px;
   text-shadow: 4px 2px #000;
 }
-
 .shadow {
   text-shadow: 4px 4px #000;
 }
-
-
 .thumbcontrol {
   height: auto;
   width: 100%;
   border: solid black 2px;
-}
-
-.textright {
-  text-align: right;
 }

@@ -1,108 +1,96 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!--Pulling bootstrap from MaxCDN as recommended on boostrap site -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <link rel='stylesheet' href='style.css'>
-  <!--Figured out how to do this on stackoverflow-->
-  <link rel="shortcut icon" href="images/dsiscon.ico">
-  <title>Damon Solutions</title>
-
-</head>
-
-<body>
-  <div class="container">
-    <!--Header -->
-    <div class="col-sm-2 center">
-      <img class="logo" src="images/dslogosilver.png"/>
+  <head>
+    <!--Actually watched your videos on the intro to HTML course and found this meta, also on bootstrap site-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Pulling bootstrap from MaxCDN as recommended on boostrap site -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!--Figured out how to do this on stackoverflow-->
+    <link rel="shortcut icon" href="images/dsiscon.ico">
+    <title>Damon Solutions</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--Header -->
+      <div class="row">
+        <div class="col-sm-2 center">
+          <img class="logo" src="images/dslogosilver.png" alt="Damon Solutions Logo">
+        </div>
+        <div class="col-sm-10 text-right text-uppercase shadow">
+          <h1>Tyler Damon</h1>
+          <h2>Front End Jedi</h2>
+        </div>
+      </div>
+      <!--End Header-->
+      <div class="col-sm-12 breakerline"><!-- used to put in the break line like in the mock up -->
+      </div>
+      <!--Initialize Jumbotron for backround image -->
+      <div class="jumbotron col-sm-12">
+        <h2>Check out samples of my work below</h2>
+      </div>
+      <!--Primary Featured Work Area two parts, one for my websites and one for the Nanodegree -->
+      <h2 class="col-sm-12 featuredwrk center">Featured Work</h2>
+      <h3 class="col-sm-12 featuredwrk center">Sites I've Created</h3>
+      <div class="col-md-4 center">
+        <a class="hovershadow" href="//westwardenglish.com">
+          <img class="thumbcontrol" src="images/westwardthumb.jpg" alt="Westward English">
+          <h3>Westward English</h3>
+          <h4>A Wordpress Site for an ESL School</h4>
+          <p>www.WestwardEnglish.com</p>
+        </a>
+      </div>
+      <div class="col-md-4 center">
+        <a class="hovershadow" href="//damonenglish.com">
+          <img class="thumbcontrol" src="images/damonengthumb.jpg" alt="Damon English Thumbnail">
+          <h3>Damon English</h3>
+          <h4>My Website for My Students</h4>
+          <p>www.DamonEnglish.com</p>
+        </a>
+      </div>
+      <div class="col-md-4 center">
+        <a class="hovershadow" href="//damonsolutions.com">
+          <img class="thumbcontrol" src="images/damonsolthumb.jpg" alt="Damon Solutions Thumbnail">
+          <h3>Damon Solutions</h3>
+          <h4>The Very Site You're on!</h4>
+          <p>www.DamonSolutions.com</p>
+        </a>
+      </div>
+      <h3 class="col-sm-12 featuredwrk center">Nano Degree Projects</h3>
+      <div class="col-md-2 center">
+        <a class="hovershadow" href="comingsoon.html">
+          <h4>Interactive Resume</h4>
+        </a> 
+      </div>
+      <div class="col-md-2 center">
+        <a class="hovershadow" href="comingsoon.html">
+          <h4>Classic Arcade Game Clone</h4>
+        </a> 
+      </div>
+      <div class="col-md-2 center">
+        <a class="hovershadow" href="comingsoon.html">
+          <h4>Website Optimization</h4>
+        </a> 
+      </div>
+      <div class="col-md-2 center">
+        <a class="hovershadow" href="comingsoon.html">
+          <h4>Interactive Map Project</h4>
+        </a> 
+      </div>
+      <div class="col-md-2 center">
+        <a class="hovershadow" href="comingsoon.html">
+          <h4>Contribution to Open Source</h4>
+        </a> 
+      </div>
+      <div class="col-md-2 center">
+        <a class="hovershadow" href="comingsoon.html">
+          <h4>Javascript Testing</h4>
+        </a> 
+      </div>
     </div>
-
-    <div class="col-sm-10 textright shadow">
-      <h2>Tyler Damon</h2>
-      <h3>Front End Jedi</h3>
-    </div>
-    <!--End Header-->
-    <div class="col-sm-12 breakerline"><!-- used to put in the break line like in the mock up -->
-    </div>
-
-    <!--Initialize Jumbotron for backround image -->
-    <div class="jumbotron col-sm-12">
-      <h2>Check out samples of my work below</h2>
-    </div>
-
-    <!--Primary Featured Work Area two parts, one for my websites and one for the Nanodegree -->
-    <h2 class= "col-sm-12 featuredwrk center">Featured Work</h2>
-    <h3 class="col-sm-12 featuredwrk center">Sites I've Created</h3>
-    
-    <div class="col-md-4 center">
-      <a class="hovershadow" href="//westwardenglish.com">
-        <img class="thumbcontrol" src="images/westwardthumb.jpg" alt="Westward English">
-        <h3>Westward English</h3>
-        <h4>A Wordpress Site for an ESL School</h4>
-        <p>www.WestwardEnglish.com</p>
-      </a>
-    </div>
-
-    <div class="col-md-4 center">
-      <a class="hovershadow" href="//damonenglish.com">
-        <img class="thumbcontrol" src="images/damonengthumb.jpg" alt="Damon English Thumbnail">
-        <h3>Damon English</h3>
-        <h4>My Website for My Students</h4>
-        <p>www.DamonEnglish.com</p>
-      </a>
-    </div>
-
-    <div class="col-md-4 center">
-      <a class="hovershadow" href="//damonsolutions.com">
-      <img class="thumbcontrol" src="images/damonsolthumb.jpg" alt="Damon Solutions Thumbnail">
-      <h3>Damon Solutions</h3>
-      <h4>The Very Site You're on!</h4>
-      <p>www.DamonSolutions.com</p>
-      </a>
-    </div>
-
-    <h3 class="col-sm-12 featuredwrk center">Nano Degree Projects</h3>
-    
-    <div class="col-md-2 center">
-      <a class="hovershadow" href="comingsoon.html">
-        <h4>Interactive Resume</h4>
-      </a> 
-    </div>
-
-    <div class="col-md-2 center">
-      <a class="hovershadow" href="comingsoon.html">
-        <h4>Classic Arcade Game Clone</h4>
-      </a> 
-    </div>
-
-    <div class="col-md-2 center">
-      <a class="hovershadow" href="comingsoon.html">
-        <h4>Website Optimization</h4>
-      </a> 
-    </div>
-
-    <div class="col-md-2 center">
-      <a class="hovershadow" href="comingsoon.html">
-        <h4>Interactive Map Project</h4>
-      </a> 
-    </div>
-
-    <div class="col-md-2 center">
-      <a class="hovershadow" href="comingsoon.html">
-        <h4>Contribution to Open Source</h4>
-      </a> 
-    </div>
-
-    <div class="col-md-2 center">
-      <a class="hovershadow" href="comingsoon.html">
-        <h4>Javascript Testing</h4>
-      </a> 
-    </div>
-
-
-  </div>
-
-</body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
